@@ -4,4 +4,9 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="accuracy_label">Accuracy</string>
+    <string name="no_permissions">You have not granted the app the necessary permissions</string>
 </resources>

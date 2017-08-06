@@ -28,4 +28,9 @@ public class PermissionsRequester {
         return true;
 
     }
+
+    public  static void requestPermissions(Activity activity){
+        if (activity == null) return ;
+        ActivityCompat.requestPermissions(activity, PERMISSIONS, 0);
+    }
 }
